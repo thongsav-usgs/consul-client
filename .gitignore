@@ -4,6 +4,7 @@ build
 *.iml
 .idea
 .gradle
+build.gradle
 out
 /.nb-gradle/private/
 /target/
