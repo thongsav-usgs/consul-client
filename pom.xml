@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.orbitz.consul</groupId>
 	<artifactId>consul-client</artifactId>
-	<version>0.7.1</version>
+	<version>0.8.0-SNAPSHOT</version>
 	<inceptionYear>2008</inceptionYear>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -16,6 +16,24 @@
 			<distribution>repo</distribution>
 		</license>
 	</licenses>
+	<scm>
+		<url>https://github.com/USGS-CIDA/consul-client</url>
+		<connection>scm:git:git@github.com:USGS-CIDA/consul-client.git</connection>
+		<developerConnection>scm:git:git@github.com:USGS-CIDA/consul-client.git</developerConnection>
+	</scm>
+	<distributionManagement>
+		<repository>
+			<id>cida-public-thirdparty</id>
+			<name>CIDA Public Third Party Releases</name>
+			<url>http://internal.cida.usgs.gov/maven/content/repositories/cida-public-snapshots/</url>
+		</repository>
+		<snapshotRepository>
+			<id>public-snapshots</id>
+			<name>CIDA's Public Snapshots</name>
+			<url>http://internal.cida.usgs.gov/maven/content/repositories/public-snapshots/</url>
+		</snapshotRepository>
+	</distributionManagement>
+
 	<dependencies>
 		<dependency>
 			<groupId>com.fasterxml.jackson.core</groupId>
