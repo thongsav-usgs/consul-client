@@ -25,12 +25,12 @@
 		<repository>
 			<id>cida-public-thirdparty</id>
 			<name>CIDA Public Third Party Releases</name>
-			<url>http://internal.cida.usgs.gov/maven/content/repositories/cida-public-snapshots/</url>
+			<url>http://internal.cida.usgs.gov/maven/content/repositories/cida-public-thirdparty/</url>
 		</repository>
 		<snapshotRepository>
-			<id>public-snapshots</id>
-			<name>CIDA's Public Snapshots</name>
-			<url>http://internal.cida.usgs.gov/maven/content/repositories/public-snapshots/</url>
+			<id>cida-public-snapshots</id>
+			<name>CIDA Public Snapshots</name>
+			<url>http://internal.cida.usgs.gov/maven/content/repositories/cida-public-snapshots/</url>
 		</snapshotRepository>
 	</distributionManagement>
 
