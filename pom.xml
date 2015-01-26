@@ -16,6 +16,24 @@
 			<distribution>repo</distribution>
 		</license>
 	</licenses>
+	<scm>
+		<url>https://github.com/USGS-CIDA/nwc</url>
+		<connection>scm:git:git@github.com:USGS-CIDA/nwc.git</connection>
+		<developerConnection>scm:git:git@github.com:USGS-CIDA/nwc.git</developerConnection>
+	</scm>
+	<distributionManagement>
+		<repository>
+			<id>cida-public-thirdparty</id>
+			<name>CIDA Public Third Party Releases</name>
+			<url>http://internal.cida.usgs.gov/maven/content/repositories/cida-public-snapshots/</url>
+		</repository>
+		<snapshotRepository>
+			<id>public-snapshots</id>
+			<name>CIDA's Public Snapshots</name>
+			<url>http://internal.cida.usgs.gov/maven/content/repositories/public-snapshots/</url>
+		</snapshotRepository>
+	</distributionManagement>
+
 	<dependencies>
 		<dependency>
 			<groupId>com.fasterxml.jackson.core</groupId>
