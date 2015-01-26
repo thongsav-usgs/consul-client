@@ -17,9 +17,9 @@
 		</license>
 	</licenses>
 	<scm>
-		<url>https://github.com/USGS-CIDA/nwc</url>
-		<connection>scm:git:git@github.com:USGS-CIDA/nwc.git</connection>
-		<developerConnection>scm:git:git@github.com:USGS-CIDA/nwc.git</developerConnection>
+		<url>https://github.com/USGS-CIDA/consul-client</url>
+		<connection>scm:git:git@github.com:USGS-CIDA/consul-client.git</connection>
+		<developerConnection>scm:git:git@github.com:USGS-CIDA/consul-client.git</developerConnection>
 	</scm>
 	<distributionManagement>
 		<repository>
